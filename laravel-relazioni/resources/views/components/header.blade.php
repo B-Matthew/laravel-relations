@@ -1,8 +1,8 @@
 <header>
   <div class="container">
-    <h1>header</h1>
+    <h1><a href="{{route('home')}}">Header</a></h1>
     <div class="">
-      <a href="#">Crea</a>
+      <a id="create" href="{{route('createCar')}}">Crea una macchina</a>
     </div>
   </div>
 </header>

@@ -15,3 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'myController@home')
       ->name('home');
+
+Route::get('/pilot/{id}' , 'myController@pilot')
+      ->name('pilot');
+
+Route::get('/create','myController@createCar')
+      ->name('createCar');
+Route::post('/storeCar', 'myController@storeCar')
+      ->name('storecar');

@@ -16,13 +16,23 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: blue;
 }
 
 .container {
   width: 70%;
   margin: auto;
   margin-top: 50px;
+}
+
+.container h2,
+.container h4 {
+  margin: 10px 0;
+  color: red;
+}
+
+.container h3 {
+  margin: 5px 0;
 }
 
 .container ul {
@@ -34,5 +44,19 @@ a:hover {
 .container ul li {
   flex-basis: 30%;
   margin: 10px 10px;
+  border: 2px solid yellow;
+  padding: 10px 10px;
+}
+
+#create_car {
+  padding: 10px 15px;
+  color: white;
+  background-color: blue;
+  border: 2px solid black;
+}
+
+#create {
+  padding: 2px 2px;
+  border: 1px solid yellow;
 }
 
