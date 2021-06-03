@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #323232;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: red;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.container ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container ul li {
+  flex-basis: 30%;
+  margin: 10px 10px;
+}
+
